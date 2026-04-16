@@ -29,10 +29,16 @@ export const Route = createRootRoute({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" },
-      { title: "PayPal Balance" },
-      { name: "description", content: "PayPal Balance" },
+      { title: "PayPal" },
+      { name: "description", content: "PayPal wallet" },
       { name: "apple-mobile-web-app-capable", content: "yes" },
       { name: "apple-mobile-web-app-status-bar-style", content: "default" },
+      { property: "og:title", content: "PayPal" },
+      { name: "twitter:title", content: "PayPal" },
+      { property: "og:description", content: "PayPal wallet" },
+      { name: "twitter:description", content: "PayPal wallet" },
+      { name: "twitter:card", content: "summary" },
+      { property: "og:type", content: "website" },
     ],
     links: [
       {
